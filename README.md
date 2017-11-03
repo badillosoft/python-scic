@@ -1,4 +1,4 @@
-# Programación Python Con Aplicaciones en el Ámbito Científico
+# Programación Python Con Aplicaciones en el Ámbito Científico
 
 Instructor: Alan Badillo Salas (badillo.soft@hotmail.com)
 
