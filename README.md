@@ -8,6 +8,8 @@ En este repositorio encontrarás los ejercicios vistos en clase dentro de las ca
 
 ## Enlaces
 
+> GRUPO WHATSAPP - https://chat.whatsapp.com/CD5EqEWSsa01bHuqqMeS2I
+
 > Curso de Python online (inglés) - https://www.learnpython.org/
 
 > Curso de Python3 online (inglés) - https://repl.it/student/classrooms/17929
