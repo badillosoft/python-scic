@@ -59,6 +59,6 @@ Observa del código anterior `x % 2 == 0` que significa `x módulo 2 congruente 
 <br><br>
 <hr>
 <small>
-Diplomado de Java - Alan Badillo Salas (badillo.soft@hotmail.com)<br>
+Python Científico - Alan Badillo Salas (badillo.soft@hotmail.com)<br>
 Instituto Politécnico Nacional - Centro de Investigación en Cómputo
 </small>

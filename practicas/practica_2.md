@@ -49,7 +49,7 @@ for i in range(0, n):
 print("Integral de f(x)={:.4f}".format(I))
 ~~~
 
-## Problemas
+## Problemas
 
 * Crea una función llamada Integral(f, a, b, n) que reciba los parámetros `f - función`, `a - número`, `b - número` y `n - número`.
 
@@ -70,6 +70,6 @@ print("Integral de f(x)={:.4f}".format(I))
 <br><br>
 <hr>
 <small>
-Diplomado de Java - Alan Badillo Salas (badillo.soft@hotmail.com)<br>
+Python Científico - Alan Badillo Salas (badillo.soft@hotmail.com)<br>
 Instituto Politécnico Nacional - Centro de Investigación en Cómputo
 </small>
