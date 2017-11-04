@@ -19,32 +19,32 @@ f = open("datos.txt", "r")
 
 for linea in f:
     print("Contenido: {}".format(linea))
+
+f.close()
 ~~~
+
+Observa que mandamos a llamar al método `close` para cerrar el archivo.
 
 ## Escribir una lista de valores en un archivo
 
 El siguiente ejemplo muestra como escribir una lista de valores en un archivo con el formato *CSV* que simplemente es cada valor separarlo por coma.
 
 ~~~py
+A = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+f = open("datos2.txt", "w")
+
+for x in A:
+    f.write("{}, ".format(x))
+
+f.close()
 ~~~
 
 ## Problemas
 
-* Crea una función llamada Integral(f, a, b, n) que reciba los parámetros `f - función`, `a - número`, `b - número` y `n - número`.
+* Crear un programa que lea cada línea de un archivo e indique cuánto mide cada línea.
 
-* Dentro de la función `Integral` calcula la integral aproximada con los parámetros enviados y devuelve el dicho valor.
-
-* Ejecuta el siguiente código poniendo antes la definición de la función `Integral` y corrobora que el resultado sea correcto:
-
-~~~py
-# TODO: Pon aqui la función Integral(f, a, b, n)
-
-I = Integral(lambda x: x ** 2 - 2 * x + 4, 0, 3, 500)
-
-print("Integral de f(x)={:.4f}".format(I))
-~~~
-
-* Comenta brevemente en tu código mediante un comentario en varias líneas (usando """) que significa `lambda x: x ** 2 - 2 * x + 4` y que uso tiene en este código.
+* Crear un programa que almacene los primeros 20 números de la sucesión de Fibonacci en formato *csv*.
 
 <br><br>
 <hr>
