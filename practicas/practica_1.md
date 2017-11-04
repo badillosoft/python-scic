@@ -50,9 +50,9 @@ print(g)
 
 Observa del código anterior `x % 2 == 0` que significa `x módulo 2 congruente con 0`, es decir, `Si el residuo de quitarle a x tantos números 2 como quepan es cero`, lo cual significa que si por ejemplo `x = 21`, le podemos quitar `10` veces `2`, sobrando `1` por lo que la condición no se cumple, pero si `x = 34`, le podemos quitar `17` veces `2`, sobrando `0`, entonces, el módulo `2` indica si un número es par si el residuo (módulo) es `0` o impar si es `1`.
 
-## Problemas
+## Problemas
 
-* Crea un programa que genere los primero 20 números definidos por la sucesión `f(0) = 0`, `f(1) = 4`, `f(2) = 3` y `f(n) = 2 * f(n - 2) - f(n - 1) + f(n - 2)` para `n >= 3`
+* Crea un programa que genere los primero 20 números definidos por la sucesión `f(0) = 0`, `f(1) = 4`, `f(2) = 3` y `f(n) = 2 * f(n - 2) - f(n - 1) + f(n - 3)` para `n >= 3`
 
 * Crea un filtro para la sucesión anterior que almacene todos los números que son multiplos de 7 (x módulo 7 congruente con 0).
 
