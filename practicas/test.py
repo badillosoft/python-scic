@@ -1,21 +1,9 @@
-n = 20
+def T(x):
+    if x % 2 == 0:
+        return -1
+    else:
+        return 1
 
-fi2 = 1 # f(i - 2)
-fi1 = 1 # f(i - 1)
+A = [1, 5, 9, 28, 32, 48, 54, 99, 101]
 
-print("f(0) = 1")
-print("f(1) = 1")
-
-f = []
-
-for i in range(2, n + 1):
-    fi = fi1 + fi2
-
-    f.append(fi)
-
-    print("f({}) = {}".format(i, fi))
-
-    fi2 = fi1
-    fi1 = fi
-
-print(f)
+B = map(T, A)
