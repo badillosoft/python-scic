@@ -1,9 +1,15 @@
-def T(x):
-    if x % 2 == 0:
-        return -1
-    else:
-        return 1
+from sklearn.datasets import load_iris
+from sklearn import tree
+import graphviz 
 
-A = [1, 5, 9, 28, 32, 48, 54, 99, 101]
+iris = load_iris()
 
-B = map(T, A)
+clf = tree.DecisionTreeClassifier()
+
+clf = clf.fit(iris.data, iris.target)
+
+dot_data = tree.export_graphviz(clf, out_file=None) 
+
+graph = graphviz.Source(dot_data)
+
+graph.render("iris")
