@@ -2,4 +2,4 @@ import scic
 
 datos = scic.load_data_csv("edades.csv")
 
-print(datos)
+scic.plot_data_pie(datos, "Genero")

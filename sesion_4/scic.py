@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+
 def T_CLR_STR(s):
     return s.replace("\n", "").replace(" ", "_")
 
@@ -28,3 +30,36 @@ def load_data_csv(filename):
     f.close()
 
     return output
+
+def plot_data_pie(data, column):
+    # 1. Recolectar los datos de la columna
+    # [{"X": 1, "Y": 3}, {"X": 2, "Y": 5}] + "Y" => [3, 5]
+    values = []
+    
+    for dic in data:
+        values.append(dic[column])
+
+    # 2. Convertir el arreglo de valores
+    # en un diccionario que cuente, cuántas veces
+    # se repiten los valores en el arreglo
+    # ["A", "A", "B"] => { "A": 2, "B": 1 }
+    pie_dic = {}
+
+    for x in values:
+        if x in pie_dic:
+            pie_dic[x] += 1
+        else:
+            pie_dic[x] = 1
+
+    print (pie_dic)
+
+    labels = []
+    sizes = []
+
+    for k, v in pie_dic.items():
+        labels.append(k)
+        sizes.append(v)
+
+    plt.pie(sizes, labels=labels, autopct="%1.1f%%")
+    plt.axis("equal")
+    plt.show()
