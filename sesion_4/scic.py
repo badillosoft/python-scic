@@ -51,7 +51,7 @@ def plot_data_pie(data, column):
         else:
             pie_dic[x] = 1
 
-    print (pie_dic)
+    # 3. Armar la gráfica de pastel
 
     labels = []
     sizes = []
