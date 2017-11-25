@@ -1,4 +1,4 @@
-# Práctica VI - Clasificadores (Parte I)
+# Práctica VII - Clasificadores (Parte I)
 
 Un clasificador es un programa que puede ser entrenado para predecir valores en base a una lista de ejemplos. Los clasificadores sirven para tomar decisiones automáticas que aprende a tráves de ejemplos y son muy útiles cuando es díficil incluso para una persona predecir un valor. Algunas aplicaciones de los clasificadores son poder predecir fallos en experimentos, concluir análisis médicos, aprender a manejar automóviles, aprender comportamientos en la bolsa de valores para decidir si es bueno invertir, entre otros.
 
@@ -19,6 +19,113 @@ Los datos anteriores representan los datos para entrenar un clasificador y que e
 Para hacer clasificación en python debemos utilizar un módulo llamado `sklearn` el cual nos va a proveer de una gran variedad de clasficadores que pueden ser consultados en http://scikit-learn.org/stable/supervised_learning.html#supervised-learning
 
 > Instalar sklearn: `pip install sklearn scipy`
+
+## Clasificar datos en python
+
+Para poder clasificar datos lo haremos a través de la librería `Sklearn` de `Sci-kit`, la estructura básica consiste en formar una matriz con los datos de entrenamiento para las características deseadas y un vector de prueba que muestra un valor real de entrenamiento para la matriz de prueba, la matriz debe ser codificada numéricamente, por ejemplo, si la caracterísitca es de tipo categórica como `C`, `NC` entonces podemos asignar valores `C = 1`, `NC = 2`, de forma que si el resultado es 1 sabremos que se refiere a `C` y si es dos lo traduciremos como `NC`.
+
+> Ejemplo de un clasificador genérico (solo demostración, código no funcional)
+
+~~~py
+# Importamos el clasificador
+from sklearn.TIPOCLASIFICADOR import CLASIFICADOR
+
+# Construimos la matriz de datos para las características observables
+# C = 1, NC = 2
+X = [
+    [60, 15, 1],
+    [80, 10, 1],
+    [30, 8, 2],
+    [10, 3, 1]
+]
+
+# Construimos el vector de resultados para las características a predecir
+# Naranja = 1, Manzana = 2, Plátano = 3, Uva = 4
+Y = [
+    1,
+    2,
+    3,
+    4
+]
+
+# Creamos un clasificador de la clase CLASIFICADOR
+clf = CLASIFICADOR()
+
+# Ajustamos el clasificador a los datos de entrenamiento
+# después de esto el clasificador ya aprendió como se comportan los datos
+# y pueden predecir que pasaría con otro conjunto de datos
+clf.fit(X, Y)
+
+# Creamos pruebas para predecir que fruta es
+Xp = [
+    [50, 12, 1],
+    [90, 11, 1],
+    [30, 15, 2],
+    [10, 4, 1]
+]
+
+# Obtenemos el vector que predice las frutas, recordando la codificación
+Yp = clf.predict(Xp)
+~~~
+
+## Clasificadores de árbol
+
+Un clasificador de árbol se basa en construir un árbol binario el cual toma decisiones sobre las características del los datos, por ejemplo, si se quisiera entrenar un clasificador a partir de las características `x`, `y`, `z` para predecir la variable `w`, entonces podríamos construir un árbol que prediga por ejemplo, si `x <= 3` y `y > 2` entonces `w = 2`. Este tipo de comparaciones forman una jerarquía de decisiones las cuales son aplicadas una a una a los datos para poder predecir en base a esas decisiones que debería ser nuestra variable a predecir.
+
+> Ejemplo de un clasificador por árbol de decisión.
+
+~~~py
+from sklearn.tree import DecisionTreeClassifier
+
+X = [
+    [60, 15, 1],
+    [80, 10, 1],
+    [30, 8, 2],
+    [10, 3, 1],
+]
+
+Y = [
+    1,
+    2,
+    3,
+    4
+]
+
+clf = DecisionTreeClassifier()
+
+clf.fit(X, Y)
+
+Xp = [
+    [50, 12, 1],
+    [90, 11, 1],
+    [30, 15, 2],
+    [10, 4, 1]
+]
+
+Yp = clf.predict(Xp)
+~~~
+
+Podemos extraer el árbol de decisión en un archivo PDF mediante `graphviz`. Intenta instalarlo y buscar la documentación para instalarlo y ejecuta el siguiente programa que debería generar un archivo PDF con el diagrama del árbol.
+
+~~~py
+from sklearn.datasets import load_iris
+from sklearn import tree
+import graphviz 
+
+iris = load_iris()
+
+clf = tree.DecisionTreeClassifier()
+
+clf = clf.fit(iris.data, iris.target)
+
+dot_data = tree.export_graphviz(clf, out_file=None) 
+
+graph = graphviz.Source(dot_data)
+
+graph.render("iris")
+~~~
+
+
 
 ## Problemas
 
