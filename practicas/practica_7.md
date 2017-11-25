@@ -20,7 +20,7 @@ Para hacer clasificación en python debemos utilizar un módulo llamado `sklearn
 
 > Instalar sklearn: `pip install sklearn scipy`
 
-## Clasificar datos en python
+## Clasificar datos en python
 
 Para poder clasificar datos lo haremos a través de la librería `Sklearn` de `Sci-kit`, la estructura básica consiste en formar una matriz con los datos de entrenamiento para las características deseadas y un vector de prueba que muestra un valor real de entrenamiento para la matriz de prueba, la matriz debe ser codificada numéricamente, por ejemplo, si la caracterísitca es de tipo categórica como `C`, `NC` entonces podemos asignar valores `C = 1`, `NC = 2`, de forma que si el resultado es 1 sabremos que se refiere a `C` y si es dos lo traduciremos como `NC`.
 
@@ -51,8 +51,8 @@ Y = [
 # Creamos un clasificador de la clase CLASIFICADOR
 clf = CLASIFICADOR()
 
-# Ajustamos el clasificador a los datos de entrenamiento
-# después de esto el clasificador ya aprendió como se comportan los datos
+# Ajustamos el clasificador a los datos de entrenamiento
+# después de esto el clasificador ya aprendió como se comportan los datos
 # y pueden predecir que pasaría con otro conjunto de datos
 clf.fit(X, Y)
 
@@ -68,9 +68,9 @@ Xp = [
 Yp = clf.predict(Xp)
 ~~~
 
-## Clasificadores de árbol
+## Clasificadores de Árbol
 
-Un clasificador de árbol se basa en construir un árbol binario el cual toma decisiones sobre las características del los datos, por ejemplo, si se quisiera entrenar un clasificador a partir de las características `x`, `y`, `z` para predecir la variable `w`, entonces podríamos construir un árbol que prediga por ejemplo, si `x <= 3` y `y > 2` entonces `w = 2`. Este tipo de comparaciones forman una jerarquía de decisiones las cuales son aplicadas una a una a los datos para poder predecir en base a esas decisiones que debería ser nuestra variable a predecir.
+Un clasificador de árbol se basa en construir un árbol binario el cual toma decisiones sobre las características de los datos, por ejemplo, si se quisiera entrenar un clasificador a partir de las características `x`, `y`, `z` para predecir la variable `w`, entonces podríamos construir un árbol que prediga por ejemplo, si `x <= 3` y `y > 2` entonces `w = 2`. Este tipo de comparaciones forman una jerarquía de decisiones las cuales son aplicadas una a una a los datos para poder predecir en base a esas decisiones que debería ser nuestra variable a predecir.
 
 > Ejemplo de un clasificador por árbol de decisión.
 
@@ -125,19 +125,48 @@ graph = graphviz.Source(dot_data)
 graph.render("iris")
 ~~~
 
+## Clasificadores por Redes Neuronales
 
+Un clasificador por Redes Neuronales se basa en unidades lógicas llamas neuronas o perceptrones las cuales toman un conjunto entradas para mediante una función de activación determinar si se activa o no la neurona. La activación esta dada por pesos ajustables y el ajuste correcto de los pesos en un monton de neuronas generan un sistema sensible a la entrada y que genera una salida esperada.
+
+~~~py
+from sklearn.neural_network import MLPClassifier
+
+X = [
+    [60, 15, 1],
+    [80, 10, 1],
+    [30, 8, 2],
+    [10, 3, 1],
+]
+
+Y = [
+    1,
+    2,
+    3,
+    4
+]
+
+clf = MLPClassifier()
+
+clf.fit(X, Y)
+
+Xp = [
+    [50, 12, 1],
+    [90, 11, 1],
+    [30, 15, 2],
+    [10, 4, 1]
+]
+
+Yp = clf.predict(Xp)
+~~~
 
 ## Problemas
 
-* Generar un archivo CSV con valores aleatorios que almacene los datos de un experimento ficticio que consta de los campos `Tiempo`, `Dilatacion`, `Temperatura`, `Densidad`.
+* Crea una matriz de experimentos aleatoria, donde se midan al menos 8 características de un experimento, por ejemplo, temperatura, presión, humedad, densidad, etc.
 
-* Cargar los datos con la función `scic.load_data_csv(...)` e imprimirlos.
+* Separar la matriz en X y Y, donde X son las caracterísitcas observables y Y son resultados experimentales.
 
-* Generar el dato categórico `Invalido` el cual se determina si la temperatura es mayor a `60` (`SI` o `NO`).
-
-* Generar el dato categórico `Sobredilatado` el cual se determina si la dilatación es mayor a `4`.
-
-* Graficar la columna `Invalido` y la columna `Sobredilatado` en dos gráficas de pastel (en ventanas distintas).
+* Crear un Clasificador (el que desee) y predecir algunos valores similarares a los de su tabla.
 
 <br><br>
 <hr>
