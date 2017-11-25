@@ -1,15 +1,11 @@
-from sklearn.datasets import load_iris
-from sklearn import tree
-import graphviz 
+import nltk
+import ssl
 
-iris = load_iris()
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    pass
+else:
+    ssl._create_default_https_context = _create_unverified_https_context
 
-clf = tree.DecisionTreeClassifier()
-
-clf = clf.fit(iris.data, iris.target)
-
-dot_data = tree.export_graphviz(clf, out_file=None) 
-
-graph = graphviz.Source(dot_data)
-
-graph.render("iris")
+nltk.download()
