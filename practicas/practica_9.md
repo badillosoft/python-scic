@@ -201,7 +201,7 @@ Para poder tener acceso a la base de datos de mongo a través de python debemos 
 
 ## Insertar un documento con PyMongo
 
-Podemos almacenar cualquier diccionario serializable en python, observa que y python los diccionarios llevan comillas en sus claves a diferencia de javascript.
+Podemos almacenar cualquier diccionario serializable en python, observa que en python los diccionarios llevan comillas en sus claves a diferencia de javascript.
 
 ~~~py
 from pymongo import MongoClient

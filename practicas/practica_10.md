@@ -24,7 +24,7 @@ app.run()
 
 Si abrimos un navegador en la ruta `http://localhost:5000/hola` podremos acceder al recurso que envia nuestro servidor, en este caso un texto que dice `Hola mundo`.
 
-## Rutas dinámicas
+## Rutas dinámicas
 
 Podemos establecer rutas dinámicas para poder proveer recursos más precisos y únicos, por ejemplo, si quisieramos recibir el nombre de la persona en la misma ruta y responder con un mensaje personalizado, haríamos:
 
@@ -77,7 +77,7 @@ El ejemplo anterior le enviaría la variable `nombre_html` a la plantilla con el
 
 ~~~html
 <h1>Hola {{ nombre_html }}</h1>
-~~~ 
+~~~ 
 
 ## Procesar un formulario con el método *POST*
 
