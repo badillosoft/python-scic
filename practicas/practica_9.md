@@ -46,7 +46,7 @@ db.personas.insert({
 });
 ~~~
 
-## Insertar multiples documentos en una colección
+## Insertar multiples documentos en una colección
 
 Ya vimos que el método `db.mi_coleccion.insert(...)` nos permite insertar un documento en la colección `mi_colección`, si embargo, si enviamos un arreglo podemos insertar más de uno.
 
@@ -70,7 +70,7 @@ db.productos.insert([
 ]);
 ~~~
 
-## Buscar un documento
+## Buscar un documento
 
 El `query` en la búsqueda de documentos contiene los campos que deberán cumplir ciertas condiciones, la más común es la condición de igualdad, por ejemplo, si tenemos el query:
 
@@ -161,7 +161,7 @@ const query = {
 db.productos.find(query).pretty();
 ~~~
 
-## Actualizar un documento
+## Actualizar un documento
 
 Para actualizar definimos un `query` el cual va a definir que elementos deben actualizarse, luego podemos usar `updateOne` para actualizar solo uno, que es lo recomendable para evitar problemas. El operador `$set` nos permite ajustar todos los campos del documento a sus nuevos valores, si no existían los crea y sino lo reemplaza, para eliminar campos revisa el operador `$unset`.
 
@@ -178,7 +178,7 @@ db.collecion("usuarios").updateOne(query, {
 });
 ~~~
 
-## Eliminar un documento
+## Eliminar un documento
 
 ~~~js
 const query = {
@@ -187,7 +187,7 @@ const query = {
 db.usuarios.removeOne(query);
 ~~~
 
-## Conectar MongoDB en Python
+## Conectar MongoDB en Python
 
 Para poder tener acceso a la base de datos de mongo a través de python debemos instalar `pymongo` mediante `pip`
 
@@ -199,7 +199,7 @@ Para poder tener acceso a la base de datos de mongo a través de python debemos 
 
 * Enlazar a la base de datos: `db = client.MiDB` (alternativamente `db = client["MiDB"]`)
 
-## Insertar un documento con PyMongo
+## Insertar un documento con PyMongo
 
 Podemos almacenar cualquier diccionario serializable en python, observa que y python los diccionarios llevan comillas en sus claves a diferencia de javascript.
 
@@ -217,7 +217,7 @@ result = db.productos.insert_one({
 })
 ~~~
 
-## Realizar un busqueda en PyMongo
+## Realizar un busqueda en PyMongo
 
 Las búsquedas devuelven un cursor iterable, que mediante un `for` podemos recorrer sus documentos, alternativamente `find_one(...)` nos devolverá sólo un documento o `None`.
 
