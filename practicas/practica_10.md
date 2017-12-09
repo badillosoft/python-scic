@@ -1,6 +1,6 @@
 # Práctica X - Servicios Web (Flask)
 
-Los *Servicios Web* consiste en un programa que se ejecuta en un servidor que provee recursos a diversos clientes conectados en la misma red o en internet. Estos sirven para darle al cliente una capa intermedia entre los recursos del sistema operativo y las bases de datos de una forma más sencilla. Por ejemplo, existen diversos servicios web para enviar la hora, realizar operaciones complejas, mostrar los resultados de una búsqueda en la base de datos, entre otros.
+Un *Servicio Web* consiste en un programa que se ejecuta en un servidor que provee recursos a diversos clientes conectados en la misma red o en internet. Estos sirven para darle al cliente una capa intermedia entre los recursos del sistema operativo y las bases de datos de una forma más sencilla. Por ejemplo, existen diversos servicios web para enviar la hora, realizar operaciones complejas, mostrar los resultados de una búsqueda en la base de datos, entre otros.
 
 En Python una de las formas más simples para proveer servicios web es usar la librería llamada *Flask* la cual instancia un servidor web de forma rápida. Flask utiliza el protocolo *http* y provee los recursos mediante los métodos `GET` y `POST` al recibir una ruta.
 
