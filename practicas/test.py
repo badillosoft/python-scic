@@ -1,11 +1,18 @@
-import nltk
-import ssl
+import tweepy
+import json
 
-try:
-    _create_unverified_https_context = ssl._create_unverified_context
-except AttributeError:
-    pass
-else:
-    ssl._create_default_https_context = _create_unverified_https_context
+keys = json.load(open("keys.json"))
 
-nltk.download()
+consumer_key = keys["consumer_key"]
+consumer_secret = keys["consumer_secret"]
+access_token = keys["access_token"]
+access_token_secret = keys["access_token_secret"]
+
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_token, access_token_secret)
+
+api = tweepy.API(auth)
+
+public_tweets = api.home_timeline()
+for tweet in public_tweets:
+    print(tweet.text)
