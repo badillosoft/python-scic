@@ -1,0 +1,1602 @@
+[
+    {
+        "nombre": "Rachel Guevara",
+        "sexo": "M",
+        "edad": 80,
+        "salario": 19540,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Kevin Hernandez",
+        "sexo": "H",
+        "edad": 78,
+        "salario": 13840,
+        "discapacitado": true,
+        "desempleado": false
+    },
+    {
+        "nombre": "Paty Hernandez",
+        "sexo": "M",
+        "edad": 24,
+        "salario": 25239,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Paty Sanchez",
+        "sexo": "M",
+        "edad": 66,
+        "salario": 29628,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Nacho Martinez",
+        "sexo": "H",
+        "edad": 49,
+        "salario": 16144,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Saul Gomez",
+        "sexo": "H",
+        "edad": 28,
+        "salario": 11305,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Raul Perez",
+        "sexo": "H",
+        "edad": 51,
+        "salario": 20431,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Eduardo Sanchez",
+        "sexo": "H",
+        "edad": 40,
+        "salario": 11966,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Tania Hernandez",
+        "sexo": "M",
+        "edad": 36,
+        "salario": 26363,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Ivan Martinez",
+        "sexo": "H",
+        "edad": 23,
+        "salario": 11779,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Sandy Godinez",
+        "sexo": "M",
+        "edad": 21,
+        "salario": 18735,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Beto Lopez",
+        "sexo": "H",
+        "edad": 69,
+        "salario": 10255,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Gaby Perez",
+        "sexo": "M",
+        "edad": 62,
+        "salario": 4754,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Eduardo Guevara",
+        "sexo": "H",
+        "edad": 62,
+        "salario": 4101,
+        "discapacitado": true,
+        "desempleado": false
+    },
+    {
+        "nombre": "Sandy Rodriguez",
+        "sexo": "M",
+        "edad": 39,
+        "salario": 20647,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Saul Martinez",
+        "sexo": "H",
+        "edad": 63,
+        "salario": 22642,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Ivan Godinez",
+        "sexo": "H",
+        "edad": 25,
+        "salario": 5990,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Sandy Guevara",
+        "sexo": "M",
+        "edad": 51,
+        "salario": 6973,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Nancy Martinez",
+        "sexo": "M",
+        "edad": 48,
+        "salario": 6164,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Franca Lopez",
+        "sexo": "M",
+        "edad": 59,
+        "salario": 21042,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Raul Hernandez",
+        "sexo": "H",
+        "edad": 29,
+        "salario": 9350,
+        "discapacitado": true,
+        "desempleado": false
+    },
+    {
+        "nombre": "Rachel Perez",
+        "sexo": "M",
+        "edad": 30,
+        "salario": 20895,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Gaby Godinez",
+        "sexo": "M",
+        "edad": 63,
+        "salario": 10652,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Oscar Gomez",
+        "sexo": "H",
+        "edad": 74,
+        "salario": 18666,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Tania Perez",
+        "sexo": "M",
+        "edad": 53,
+        "salario": 19465,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Ivan Perez",
+        "sexo": "H",
+        "edad": 32,
+        "salario": 27147,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Maria Martinez",
+        "sexo": "M",
+        "edad": 32,
+        "salario": 12521,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Franco Gutierrez",
+        "sexo": "H",
+        "edad": 75,
+        "salario": 3707,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Edna Perez",
+        "sexo": "M",
+        "edad": 71,
+        "salario": 20015,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Juan Guevara",
+        "sexo": "H",
+        "edad": 42,
+        "salario": 18747,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Eduardo Villareal",
+        "sexo": "H",
+        "edad": 30,
+        "salario": 8909,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Kevin Guevara",
+        "sexo": "H",
+        "edad": 37,
+        "salario": 11225,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Rachel Hernandez",
+        "sexo": "M",
+        "edad": 80,
+        "salario": 13811,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Ivan Hernandez",
+        "sexo": "H",
+        "edad": 33,
+        "salario": 21442,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Carlos Gutierrez",
+        "sexo": "H",
+        "edad": 31,
+        "salario": 29536,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Carmen Villareal",
+        "sexo": "M",
+        "edad": 77,
+        "salario": 12859,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Diana Villareal",
+        "sexo": "M",
+        "edad": 70,
+        "salario": 29413,
+        "discapacitado": true,
+        "desempleado": true
+    },
+    {
+        "nombre": "Carlos Gomez",
+        "sexo": "H",
+        "edad": 75,
+        "salario": 8674,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Juana Guevara",
+        "sexo": "M",
+        "edad": 43,
+        "salario": 15905,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Bety Gomez",
+        "sexo": "M",
+        "edad": 44,
+        "salario": 9679,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Ulises Godinez",
+        "sexo": "H",
+        "edad": 58,
+        "salario": 6468,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Kevin Perez",
+        "sexo": "H",
+        "edad": 55,
+        "salario": 26286,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Nancy Perez",
+        "sexo": "M",
+        "edad": 70,
+        "salario": 5492,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Diana Sanchez",
+        "sexo": "M",
+        "edad": 69,
+        "salario": 16959,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Franco Lopez",
+        "sexo": "H",
+        "edad": 59,
+        "salario": 20484,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Ursula Lopez",
+        "sexo": "M",
+        "edad": 67,
+        "salario": 28105,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Carlos Godinez",
+        "sexo": "H",
+        "edad": 59,
+        "salario": 19909,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Olga Gomez",
+        "sexo": "M",
+        "edad": 61,
+        "salario": 26280,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Andres Martinez",
+        "sexo": "H",
+        "edad": 77,
+        "salario": 10371,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Edna Gomez",
+        "sexo": "M",
+        "edad": 21,
+        "salario": 16259,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Gerardo Villareal",
+        "sexo": "H",
+        "edad": 76,
+        "salario": 5644,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Carmen Guevara",
+        "sexo": "M",
+        "edad": 79,
+        "salario": 11797,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Kevin Gomez",
+        "sexo": "H",
+        "edad": 19,
+        "salario": 6109,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Karen Godinez",
+        "sexo": "M",
+        "edad": 78,
+        "salario": 5113,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Nancy Martinez",
+        "sexo": "M",
+        "edad": 45,
+        "salario": 7584,
+        "discapacitado": true,
+        "desempleado": false
+    },
+    {
+        "nombre": "Ulises Guevara",
+        "sexo": "H",
+        "edad": 40,
+        "salario": 4547,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Oscar Sanchez",
+        "sexo": "H",
+        "edad": 24,
+        "salario": 20278,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Maria Rodriguez",
+        "sexo": "M",
+        "edad": 20,
+        "salario": 8173,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Franca Martinez",
+        "sexo": "M",
+        "edad": 52,
+        "salario": 24329,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Oscar Perez",
+        "sexo": "H",
+        "edad": 40,
+        "salario": 25028,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Paty Gutierrez",
+        "sexo": "M",
+        "edad": 30,
+        "salario": 29087,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Franco Perez",
+        "sexo": "H",
+        "edad": 67,
+        "salario": 5794,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Ana Martinez",
+        "sexo": "M",
+        "edad": 69,
+        "salario": 17431,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Karen Rodriguez",
+        "sexo": "M",
+        "edad": 65,
+        "salario": 26261,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Juan Hernandez",
+        "sexo": "H",
+        "edad": 77,
+        "salario": 13095,
+        "discapacitado": true,
+        "desempleado": true
+    },
+    {
+        "nombre": "Andres Rodriguez",
+        "sexo": "H",
+        "edad": 21,
+        "salario": 7148,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Ulises Sanchez",
+        "sexo": "H",
+        "edad": 56,
+        "salario": 26986,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Oscar Perez",
+        "sexo": "H",
+        "edad": 78,
+        "salario": 29693,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Ana Sanchez",
+        "sexo": "M",
+        "edad": 51,
+        "salario": 21153,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Gerardo Martinez",
+        "sexo": "H",
+        "edad": 21,
+        "salario": 29642,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Daniel Rodriguez",
+        "sexo": "H",
+        "edad": 49,
+        "salario": 10053,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Luis Villareal",
+        "sexo": "H",
+        "edad": 20,
+        "salario": 19170,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Juan Martinez",
+        "sexo": "H",
+        "edad": 26,
+        "salario": 24833,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Franca Hernandez",
+        "sexo": "M",
+        "edad": 65,
+        "salario": 9110,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Maria Villareal",
+        "sexo": "M",
+        "edad": 41,
+        "salario": 23564,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Ulises Camacho",
+        "sexo": "H",
+        "edad": 70,
+        "salario": 24580,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Oscar Camacho",
+        "sexo": "H",
+        "edad": 19,
+        "salario": 6360,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Andres Martinez",
+        "sexo": "H",
+        "edad": 34,
+        "salario": 22965,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Gerardo Godinez",
+        "sexo": "H",
+        "edad": 68,
+        "salario": 9141,
+        "discapacitado": true,
+        "desempleado": false
+    },
+    {
+        "nombre": "Lucha Martinez",
+        "sexo": "M",
+        "edad": 47,
+        "salario": 29949,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Luis Martinez",
+        "sexo": "H",
+        "edad": 32,
+        "salario": 13664,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Ivan Sanchez",
+        "sexo": "H",
+        "edad": 77,
+        "salario": 15531,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Franca Hernandez",
+        "sexo": "M",
+        "edad": 37,
+        "salario": 10055,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Franco Sanchez",
+        "sexo": "H",
+        "edad": 77,
+        "salario": 26344,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Sandy Perez",
+        "sexo": "M",
+        "edad": 42,
+        "salario": 29663,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Lucha Perez",
+        "sexo": "M",
+        "edad": 53,
+        "salario": 24880,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Nancy Rodriguez",
+        "sexo": "M",
+        "edad": 54,
+        "salario": 5175,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Saul Villareal",
+        "sexo": "H",
+        "edad": 19,
+        "salario": 27429,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Luis Camacho",
+        "sexo": "H",
+        "edad": 51,
+        "salario": 17305,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Carmen Lopez",
+        "sexo": "M",
+        "edad": 53,
+        "salario": 17406,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Rachel Gomez",
+        "sexo": "M",
+        "edad": 41,
+        "salario": 23469,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Lucha Camacho",
+        "sexo": "M",
+        "edad": 74,
+        "salario": 29806,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Andres Gutierrez",
+        "sexo": "H",
+        "edad": 66,
+        "salario": 3004,
+        "discapacitado": true,
+        "desempleado": false
+    },
+    {
+        "nombre": "Ulises Sanchez",
+        "sexo": "H",
+        "edad": 35,
+        "salario": 16874,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Beto Gutierrez",
+        "sexo": "H",
+        "edad": 73,
+        "salario": 21488,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Carlos Gutierrez",
+        "sexo": "H",
+        "edad": 49,
+        "salario": 5111,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Gaby Sanchez",
+        "sexo": "M",
+        "edad": 74,
+        "salario": 24058,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Franca Lopez",
+        "sexo": "M",
+        "edad": 63,
+        "salario": 27463,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Sandy Gomez",
+        "sexo": "M",
+        "edad": 47,
+        "salario": 12635,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Mauricio Perez",
+        "sexo": "H",
+        "edad": 39,
+        "salario": 12905,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Hilda Gutierrez",
+        "sexo": "M",
+        "edad": 72,
+        "salario": 27068,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Carmen Villareal",
+        "sexo": "M",
+        "edad": 70,
+        "salario": 25760,
+        "discapacitado": true,
+        "desempleado": false
+    },
+    {
+        "nombre": "Pablo Lopez",
+        "sexo": "H",
+        "edad": 48,
+        "salario": 7813,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Mauricio Lopez",
+        "sexo": "H",
+        "edad": 62,
+        "salario": 5366,
+        "discapacitado": true,
+        "desempleado": true
+    },
+    {
+        "nombre": "Nancy Martinez",
+        "sexo": "M",
+        "edad": 39,
+        "salario": 21780,
+        "discapacitado": true,
+        "desempleado": true
+    },
+    {
+        "nombre": "Beto Gomez",
+        "sexo": "H",
+        "edad": 51,
+        "salario": 22466,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Kevin Sanchez",
+        "sexo": "H",
+        "edad": 24,
+        "salario": 21471,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Hugo Hernandez",
+        "sexo": "H",
+        "edad": 67,
+        "salario": 20669,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Teo Guevara",
+        "sexo": "H",
+        "edad": 54,
+        "salario": 26155,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Luis Gutierrez",
+        "sexo": "H",
+        "edad": 35,
+        "salario": 22874,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Juan Sanchez",
+        "sexo": "H",
+        "edad": 24,
+        "salario": 11788,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Andres Gomez",
+        "sexo": "H",
+        "edad": 52,
+        "salario": 3805,
+        "discapacitado": true,
+        "desempleado": false
+    },
+    {
+        "nombre": "Ivan Sanchez",
+        "sexo": "H",
+        "edad": 71,
+        "salario": 28140,
+        "discapacitado": true,
+        "desempleado": false
+    },
+    {
+        "nombre": "Edna Perez",
+        "sexo": "M",
+        "edad": 68,
+        "salario": 23016,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Franco Godinez",
+        "sexo": "H",
+        "edad": 63,
+        "salario": 16316,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Maria Rodriguez",
+        "sexo": "M",
+        "edad": 21,
+        "salario": 11315,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Nacho Villareal",
+        "sexo": "H",
+        "edad": 36,
+        "salario": 5183,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Raul Gutierrez",
+        "sexo": "H",
+        "edad": 73,
+        "salario": 4297,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Raul Godinez",
+        "sexo": "H",
+        "edad": 29,
+        "salario": 9545,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Edna Gomez",
+        "sexo": "M",
+        "edad": 57,
+        "salario": 14557,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Sandy Gomez",
+        "sexo": "M",
+        "edad": 75,
+        "salario": 9302,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Ulises Gomez",
+        "sexo": "H",
+        "edad": 74,
+        "salario": 25598,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Maria Guevara",
+        "sexo": "M",
+        "edad": 57,
+        "salario": 25069,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Gaby Camacho",
+        "sexo": "M",
+        "edad": 46,
+        "salario": 17282,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Edna Sanchez",
+        "sexo": "M",
+        "edad": 45,
+        "salario": 29274,
+        "discapacitado": true,
+        "desempleado": false
+    },
+    {
+        "nombre": "Bety Guevara",
+        "sexo": "M",
+        "edad": 80,
+        "salario": 14773,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Eduardo Guevara",
+        "sexo": "H",
+        "edad": 77,
+        "salario": 14463,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Teo Sanchez",
+        "sexo": "H",
+        "edad": 42,
+        "salario": 28700,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Gaby Camacho",
+        "sexo": "M",
+        "edad": 53,
+        "salario": 18539,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Oscar Gutierrez",
+        "sexo": "H",
+        "edad": 75,
+        "salario": 25474,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Ivan Hernandez",
+        "sexo": "H",
+        "edad": 30,
+        "salario": 2560,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Teo Sanchez",
+        "sexo": "H",
+        "edad": 58,
+        "salario": 26409,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Sandy Martinez",
+        "sexo": "M",
+        "edad": 68,
+        "salario": 2849,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Beto Guevara",
+        "sexo": "H",
+        "edad": 67,
+        "salario": 27395,
+        "discapacitado": true,
+        "desempleado": false
+    },
+    {
+        "nombre": "Franco Lopez",
+        "sexo": "H",
+        "edad": 36,
+        "salario": 15695,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Ivan Rodriguez",
+        "sexo": "H",
+        "edad": 53,
+        "salario": 7100,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Sandy Sanchez",
+        "sexo": "M",
+        "edad": 24,
+        "salario": 19308,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Diana Gomez",
+        "sexo": "M",
+        "edad": 41,
+        "salario": 11955,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Bety Gutierrez",
+        "sexo": "M",
+        "edad": 40,
+        "salario": 29293,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Andres Hernandez",
+        "sexo": "H",
+        "edad": 32,
+        "salario": 16202,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Maria Guevara",
+        "sexo": "M",
+        "edad": 41,
+        "salario": 18504,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Andres Perez",
+        "sexo": "H",
+        "edad": 37,
+        "salario": 9521,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Franco Guevara",
+        "sexo": "H",
+        "edad": 75,
+        "salario": 7320,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Gerardo Gutierrez",
+        "sexo": "H",
+        "edad": 73,
+        "salario": 25856,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Saul Godinez",
+        "sexo": "H",
+        "edad": 20,
+        "salario": 15739,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Gaby Gutierrez",
+        "sexo": "M",
+        "edad": 64,
+        "salario": 28705,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Luis Martinez",
+        "sexo": "H",
+        "edad": 45,
+        "salario": 3824,
+        "discapacitado": true,
+        "desempleado": false
+    },
+    {
+        "nombre": "Rachel Perez",
+        "sexo": "M",
+        "edad": 55,
+        "salario": 24607,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Edna Rodriguez",
+        "sexo": "M",
+        "edad": 57,
+        "salario": 11828,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Franca Rodriguez",
+        "sexo": "M",
+        "edad": 26,
+        "salario": 4128,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Franco Martinez",
+        "sexo": "H",
+        "edad": 36,
+        "salario": 26931,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Hugo Martinez",
+        "sexo": "H",
+        "edad": 68,
+        "salario": 5276,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Franco Villareal",
+        "sexo": "H",
+        "edad": 19,
+        "salario": 19574,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Sandy Sanchez",
+        "sexo": "M",
+        "edad": 25,
+        "salario": 6935,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Franco Guevara",
+        "sexo": "H",
+        "edad": 42,
+        "salario": 27085,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Hugo Martinez",
+        "sexo": "H",
+        "edad": 68,
+        "salario": 27365,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Carlos Guevara",
+        "sexo": "H",
+        "edad": 56,
+        "salario": 24503,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Ilse Guevara",
+        "sexo": "M",
+        "edad": 70,
+        "salario": 17341,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Bety Lopez",
+        "sexo": "M",
+        "edad": 68,
+        "salario": 4746,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Luis Gutierrez",
+        "sexo": "H",
+        "edad": 39,
+        "salario": 18978,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Gaby Martinez",
+        "sexo": "M",
+        "edad": 47,
+        "salario": 6264,
+        "discapacitado": true,
+        "desempleado": false
+    },
+    {
+        "nombre": "Nancy Godinez",
+        "sexo": "M",
+        "edad": 74,
+        "salario": 7295,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Gerardo Lopez",
+        "sexo": "H",
+        "edad": 63,
+        "salario": 14462,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Lucha Rodriguez",
+        "sexo": "M",
+        "edad": 68,
+        "salario": 27514,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Gaby Hernandez",
+        "sexo": "M",
+        "edad": 30,
+        "salario": 7359,
+        "discapacitado": true,
+        "desempleado": true
+    },
+    {
+        "nombre": "Karen Sanchez",
+        "sexo": "M",
+        "edad": 67,
+        "salario": 16707,
+        "discapacitado": true,
+        "desempleado": false
+    },
+    {
+        "nombre": "Ivan Godinez",
+        "sexo": "H",
+        "edad": 61,
+        "salario": 19921,
+        "discapacitado": true,
+        "desempleado": false
+    },
+    {
+        "nombre": "Andres Lopez",
+        "sexo": "H",
+        "edad": 40,
+        "salario": 9368,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Paty Camacho",
+        "sexo": "M",
+        "edad": 21,
+        "salario": 23742,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Ivan Martinez",
+        "sexo": "H",
+        "edad": 27,
+        "salario": 11661,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Juana Godinez",
+        "sexo": "M",
+        "edad": 54,
+        "salario": 11215,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Rachel Sanchez",
+        "sexo": "M",
+        "edad": 47,
+        "salario": 22432,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Hilda Camacho",
+        "sexo": "M",
+        "edad": 22,
+        "salario": 2749,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Oscar Lopez",
+        "sexo": "H",
+        "edad": 46,
+        "salario": 14712,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Ana Perez",
+        "sexo": "M",
+        "edad": 72,
+        "salario": 29871,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Pablo Sanchez",
+        "sexo": "H",
+        "edad": 73,
+        "salario": 12039,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Paty Villareal",
+        "sexo": "M",
+        "edad": 52,
+        "salario": 23348,
+        "discapacitado": true,
+        "desempleado": true
+    },
+    {
+        "nombre": "Hugo Rodriguez",
+        "sexo": "H",
+        "edad": 28,
+        "salario": 9699,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Hilda Godinez",
+        "sexo": "M",
+        "edad": 39,
+        "salario": 15247,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Franca Gomez",
+        "sexo": "M",
+        "edad": 36,
+        "salario": 21965,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Oscar Lopez",
+        "sexo": "H",
+        "edad": 68,
+        "salario": 26081,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Bety Camacho",
+        "sexo": "M",
+        "edad": 25,
+        "salario": 4708,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Nancy Guevara",
+        "sexo": "M",
+        "edad": 61,
+        "salario": 17949,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Beto Hernandez",
+        "sexo": "H",
+        "edad": 47,
+        "salario": 20522,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Ana Gutierrez",
+        "sexo": "M",
+        "edad": 59,
+        "salario": 16515,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Ursula Godinez",
+        "sexo": "M",
+        "edad": 28,
+        "salario": 27769,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Saul Villareal",
+        "sexo": "H",
+        "edad": 72,
+        "salario": 12863,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Luis Rodriguez",
+        "sexo": "H",
+        "edad": 43,
+        "salario": 6352,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Hugo Gutierrez",
+        "sexo": "H",
+        "edad": 28,
+        "salario": 8558,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Juan Rodriguez",
+        "sexo": "H",
+        "edad": 40,
+        "salario": 3288,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Lucha Hernandez",
+        "sexo": "M",
+        "edad": 21,
+        "salario": 27105,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Sandy Villareal",
+        "sexo": "M",
+        "edad": 43,
+        "salario": 8377,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Rachel Hernandez",
+        "sexo": "M",
+        "edad": 56,
+        "salario": 29948,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Carmen Martinez",
+        "sexo": "M",
+        "edad": 24,
+        "salario": 29945,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Oscar Godinez",
+        "sexo": "H",
+        "edad": 40,
+        "salario": 8804,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Juana Martinez",
+        "sexo": "M",
+        "edad": 24,
+        "salario": 22114,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Daniel Villareal",
+        "sexo": "H",
+        "edad": 76,
+        "salario": 23337,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Eduardo Rodriguez",
+        "sexo": "H",
+        "edad": 29,
+        "salario": 20522,
+        "discapacitado": false,
+        "desempleado": false
+    },
+    {
+        "nombre": "Carlos Gomez",
+        "sexo": "H",
+        "edad": 32,
+        "salario": 9539,
+        "discapacitado": false,
+        "desempleado": true
+    },
+    {
+        "nombre": "Hilda Hernandez",
+        "sexo": "M",
+        "edad": 62,
+        "salario": 24088,
+        "discapacitado": false,
+        "desempleado": true
+    }
+]
